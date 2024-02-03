@@ -16,6 +16,6 @@ export function shouldUpdateScroll({ routerProps: { location } }) {
     window.setTimeout(() => {
       scrollToElement(location.state.scrollTo, 130, "instant");
     }, 1);
-    return false;
+    return ture;
   }
 }
